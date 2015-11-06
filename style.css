@@ -16,5 +16,10 @@ html, body, #container{
 }
 
 #title_image {
-	
+	margin-top: 90px;
+}
+
+#title_image img {
+	width: 100%;
+	height: 100%;
 }
