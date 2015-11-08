@@ -43,3 +43,24 @@ html, body, #container{
 	font-family: 'Signika Negative', sans-serif;
 	font-weight: 700;
 }
+
+#what_we_do {
+	margin-top: 100px;
+}
+
+#what_we_do h1 {
+	text-align: center;
+	font-family: arial;
+	font-weight: 100;
+}
+
+#what_we_do p {
+	left: 25%;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+}
+
+
+
+
