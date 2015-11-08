@@ -45,6 +45,7 @@ html, body, #container{
 }
 
 #what_we_do {
+	width: 100%;
 	margin-top: 100px;
 }
 
@@ -56,9 +57,16 @@ html, body, #container{
 
 #what_we_do p {
 	left: 25%;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	width: 50%;
+}
+
+#what_we_do iframe {
+	position: absolute;
+	left:25%;
+	width: 50%;
+	height: 50%;
 }
 
 
