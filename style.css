@@ -24,7 +24,7 @@ html, body, #container{
 }
 
 #title_image {
-	margin-top: 90px;
+	margin-top: 125px;
 }
 
 #title_image img {
@@ -38,20 +38,22 @@ html, body, #container{
 	left: 20%;
 }
 
-#title_image_headline {
-	font-size: 250%;
-	font-family: 'Signika Negative', sans-serif;
-	font-weight: 700;
+.content_break {
+	border: 0;
+	width: 50%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    position: relative;
+    left: 25%;
 }
 
 #what_we_do {
-	width: 100%;
 	margin-top: 100px;
 }
 
 #what_we_do h1 {
 	text-align: center;
-	font-family: arial;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 }
 
@@ -60,6 +62,8 @@ html, body, #container{
 	position: relative;
 	text-align: center;
 	width: 50%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 
 #what_we_do iframe {
