@@ -120,7 +120,6 @@ html, body, #container{
 	padding: 0;
 	position: absolute;
 	left: 25%;
-	width: 100%;
 }
 
 .strategy_icon {
@@ -131,5 +130,16 @@ html, body, #container{
 
 .strategy {
 	display: none;
+}
+
+.strategy_text {
+	text-align: center;
+	width: 300px;
+	position: absolute;
+	left: 15%;
+}
+
+.strategy_text h2 {
+	left: 50% !important;
 }
 

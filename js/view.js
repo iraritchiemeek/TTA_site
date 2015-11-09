@@ -8,4 +8,9 @@ function View () {
 		var strategy = $(strategy)[0].value
 		$('#' + strategy +'_text').show()
 	};
+
+	View.prototype.hideStrategy = function(strategy) {
+		var strategy = $(strategy)[0].value
+		$('#' + strategy +'_text').hide()
+	};
 }

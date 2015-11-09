@@ -12,4 +12,9 @@ $(document).ready(function(){
 		var strategy = e.currentTarget.attributes.id
 		view.displayStrategy(strategy)
 	})
+
+	$('.strategy_icon').on('mouseleave', function(e){
+		var strategy = e.currentTarget.attributes.id
+		view.hideStrategy(strategy)
+	})
 })
