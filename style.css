@@ -123,7 +123,7 @@ html, body, #container{
 }
 
 .strategy_icon {
-	padding-left: 50px;
+	margin-right: 50px;
 	height: 100px;
 	width: 100px;
 }
@@ -136,10 +136,14 @@ html, body, #container{
 	text-align: center;
 	width: 300px;
 	position: absolute;
-	left: 15%;
+	left: 25%;
 }
 
 .strategy_text h2 {
-	left: 50% !important;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
+
 
