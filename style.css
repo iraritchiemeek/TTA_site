@@ -7,11 +7,14 @@ html, body, #container{
 }
 
 #title_header {
+	opacity: 0.95;
+	z-index: 1;
+	position: fixed;
 	height: 90px;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0%;
-	background-color: #EEDF10;
+	background-color: white;
 	box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.4);
 }
 
@@ -54,8 +57,12 @@ html, body, #container{
 	display: inline-block;	
 }
 
+#header_links a:hover {
+	color: #BADDE9;
+}
+
 .active {
-	color: #C70798 !important;
+	color: #BADDE9 !important;
 }
 
 .content_break {
@@ -67,36 +74,39 @@ html, body, #container{
     left: 25%;
 }
 
-#what_we_do {
-	width: 100%;
-	height: 700px;
-	margin-top: 100px;
-}
-
-#what_we_do h1 {
+.section h1 {
+	margin-top: 50px;
+	font-size: 50px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 }
 
-#what_we_do p {
+.section p {
+	padding-top: 25px;
 	left: 25%;
 	position: relative;
 	text-align: center;
 	width: 50%;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	font-size: 15px;
+}
+
+#what_we_do {
+	width: 100%;
+	height: 700px;
 }
 
 #what_we_do iframe {
 	position: absolute;
 	left:25%;
 	width: 50%;
-	height: 50%;
+	height: 400px;
 }
 
 .section {
-	margin-top: 20px;
+	padding-top: 20px;
 	/*position: relative;*/
 	width: 100%;
 	height: 500px;
